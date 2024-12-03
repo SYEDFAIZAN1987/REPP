@@ -135,6 +135,9 @@ if "current_page" not in st.session_state:
 def update_page():
     st.session_state["current_page"] = st.session_state["selected_page"]
 
+# Add video logo to the sidebar
+st.sidebar.video("REPP.mp4", format="video/mp4", start_time=0)
+
 # Sidebar radio button with dynamic selection
 st.sidebar.radio(
     "Go to", 
