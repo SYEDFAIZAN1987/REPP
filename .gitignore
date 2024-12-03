@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.py[cod]
+*.env
+
+# Logs
+*.log
+
+# Streamlit Configs
+*.stale
+
+# Other
+.DS_Store
